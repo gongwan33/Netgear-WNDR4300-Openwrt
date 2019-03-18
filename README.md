@@ -9,6 +9,7 @@ git checkout openwrt-18.06 origin/openwrt-18.06
 
 ## feed installation
 ./scripts/feeds update -a
+
 ./scripts/feeds install -a
 
 ## Config
