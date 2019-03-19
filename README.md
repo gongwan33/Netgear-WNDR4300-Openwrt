@@ -23,7 +23,7 @@ make menuconfig
 ## make
 make -j1 V=sc
 
-(If you are in China, you may encounter some errors caused by GFW. Try to use a proxy to solve the problem.)
+(If you are in China, you may encounter some errors caused by GFW. Try to use a proxy to solve the problem. Please refer to https://geekblog.mybluemix.net/ or https://geekwagner.blogspot.com/ for some possible solutions.)
 
 ## Complete
 The image will be in ./bin/targets/ar71xx/nand
