@@ -1,4 +1,4 @@
-## Netgear-WNDR4300-Openwrt/ZBT-WE1626
+## Netgear-WNDR4300-Openwrt/ZBT-WE1626 (Butterfly Router Home)
 WNDR4300 version of openwrt. Enlarge ubiroot to 113M - branch openwrt-18.06
 Support ZBT-WE1626 (Butterfly Router Home) - branch zbt-we1626
 
