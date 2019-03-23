@@ -40,6 +40,9 @@ make -j1 V=sc
 (If you are in China, you may encounter some errors caused by GFW. Try to use a proxy to solve the problem. Please refer to https://geekblog.mybluemix.net/ or https://geekwagner.blogspot.com/ for some possible solutions.)
 
 ## Complete
+### For Netgear WNDR4300
 The image will be in ./bin/targets/ar71xx/nand
+### For ZBT-WE1626 (Butterfly Router Home)
+The image will be in ./bin/targets/ramips/mt7620
 
 For more information, please refer to https://geekwagner.blogspot.com/2019/03/compile-specific-openwrt-version-and.html
