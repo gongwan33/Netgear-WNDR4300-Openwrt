@@ -517,11 +517,13 @@ zbt-wa05)
 	set_wifi_led "$boardname:blue:air"
 	set_usb_led "$boardname:blue:usb"
 	;;
-zbt-we2026)
+zbt-we2026|\
+zbt-we1626)
 	set_wifi_led "$boardname:green:wlan"
 	;;
 zbt-we826-16M|\
-zbt-we826-32M)
+zbt-we826-32M|\
+zbt-we1626)
 	set_wifi_led "zbt-we826:green:wifi"
 	set_usb_led "zbt-we826:green:usb"
 	;;

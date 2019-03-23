@@ -217,6 +217,7 @@ platform_check_image() {
 	zbtlink,zbt-we1226|\
 	zbt-we1326|\
 	zbt-we2026|\
+	zbt-we1626|\
 	zbtlink,zbt-we3526|\
 	zbt-we826-16M|\
 	zbt-we826-32M|\

@@ -303,7 +303,8 @@ get_status_led() {
 		;;
 	whr-g300n|\
 	wlr-6000|\
-	zbt-we2026)
+	zbt-we2026|\
+	zbt-we1626)
 		status_led="$boardname:red:power"
 		;;
 	widora,neo-16m|\
