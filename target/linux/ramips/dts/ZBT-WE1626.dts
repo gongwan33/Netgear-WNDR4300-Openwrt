@@ -47,6 +47,10 @@
 	};
 };
 
+&gpio0 {
+	status = "okay";
+};
+
 &gpio1 {
 	status = "okay";
 };
@@ -90,6 +94,14 @@
 	};
 };
 
+&ehci {
+	status = "okay";
+};
+
+&ohci {
+	status = "okay";
+};
+
 &ethernet {
 	mtd-mac-address = <&factory 0x4>;
 	mediatek,portmap = "wllll";
@@ -102,8 +114,10 @@
 &pinctrl {
 	state_default: pinctrl0 {
 		default {
-			ralink,group = "i2c", "spi refclk", "wled";
+			ralink,group = "i2c", "uartf", "spi refclk", "wled", "pa";
 			ralink,function = "gpio";
 		};
 	};
 };
+
+
